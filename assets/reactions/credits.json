@@ -1,0 +1,266 @@
+{
+  "provider": "https://nekos.best",
+  "date": "2026-10-06T19:36:35.682Z",
+  "assets": {
+    "hug-1.mp4": {
+      "anime": "Darker Than Black: Ryuusei no Gemini",
+      "url": "https://nekos.best/api/v2/hug/1dcc8b20-6420-476f-888e-17c7e09a11fb.gif",
+      "category": "hug"
+    },
+    "hug-2.mp4": {
+      "anime": "Happy Sugar Life",
+      "url": "https://nekos.best/api/v2/hug/1613322e-52e3-44a6-8dd7-a57b6dac48ba.gif",
+      "category": "hug"
+    },
+    "marry-1.mp4": {
+      "anime": "Date a Live IV",
+      "url": "https://nekos.best/api/v2/kiss/265e12ad-eaff-4309-bcba-e7ba8173e580.gif",
+      "category": "kiss"
+    },
+    "marry-2.mp4": {
+      "anime": "Horimiya",
+      "url": "https://nekos.best/api/v2/kiss/442e2bc1-ad7d-4685-ab63-61a8c1970916.gif",
+      "category": "kiss"
+    },
+    "kiss-1.mp4": {
+      "anime": "Steins;Gate",
+      "url": "https://nekos.best/api/v2/kiss/30435bec-1eb5-4018-b4dc-685731298f13.gif",
+      "category": "kiss"
+    },
+    "kiss-2.mp4": {
+      "anime": "Megami-ryou no Ryoubo-kun",
+      "url": "https://nekos.best/api/v2/kiss/7fe15a69-fba9-4d9c-b977-c156aa6cc3a4.gif",
+      "category": "kiss"
+    },
+    "pat-1.mp4": {
+      "anime": "Detective Conan",
+      "url": "https://nekos.best/api/v2/pat/3cc16489-0d91-41eb-87d7-e2ef26ae17d3.gif",
+      "category": "pat"
+    },
+    "pat-2.mp4": {
+      "anime": "Re: Zero kara Hajimeru Isekai Seikatsu",
+      "url": "https://nekos.best/api/v2/pat/4c5d4e0f-4a44-44fc-9b55-4c582b142976.gif",
+      "category": "pat"
+    },
+    "cuddle-1.mp4": {
+      "anime": "Demi-chan wa Kataritai",
+      "url": "https://nekos.best/api/v2/cuddle/20cff305-ced7-44fa-977e-6d6c74f1936e.gif",
+      "category": "cuddle"
+    },
+    "cuddle-2.mp4": {
+      "anime": "Assault Lily: Bouquet",
+      "url": "https://nekos.best/api/v2/cuddle/d5db6099-d5df-443b-95c4-6b76399ccbe6.gif",
+      "category": "cuddle"
+    },
+    "handhold-1.mp4": {
+      "anime": "Monogatari",
+      "url": "https://nekos.best/api/v2/handhold/c911c9f7-2a1a-44d5-ae32-a55211e39270.gif",
+      "category": "handhold"
+    },
+    "handhold-2.mp4": {
+      "anime": "Katanagatari",
+      "url": "https://nekos.best/api/v2/handhold/6ff65ccc-6554-4059-8497-7057741b9733.gif",
+      "category": "handhold"
+    },
+    "highfive-1.mp4": {
+      "anime": "Haikyu",
+      "url": "https://nekos.best/api/v2/highfive/291a8d52-13b4-4d67-bfc7-8e62891688ad.gif",
+      "category": "highfive"
+    },
+    "highfive-2.mp4": {
+      "anime": "Kinsou no Vermeil: Gakeppuchi Majutsushi wa Saikyou no Yakusai to Mahou",
+      "url": "https://nekos.best/api/v2/highfive/0f52f5cf-076d-4502-958d-536b5d49c0d1.gif",
+      "category": "highfive"
+    },
+    "poke-1.mp4": {
+      "anime": "Yahari Ore no Seishun LoveCome wa Machigatte Iru",
+      "url": "https://nekos.best/api/v2/poke/94eafdbd-53ee-4455-a66d-5f3cecd0bfad.gif",
+      "category": "poke"
+    },
+    "poke-2.mp4": {
+      "anime": "Original (Yukipengin)",
+      "url": "https://nekos.best/api/v2/poke/03f0e51e-fc34-45e6-8a45-1e9a196e4658.gif",
+      "category": "poke"
+    },
+    "bite-1.mp4": {
+      "anime": "Monogatari",
+      "url": "https://nekos.best/api/v2/bite/2b263436-d5d3-433b-bc3c-6ca7ff7840b7.gif",
+      "category": "bite"
+    },
+    "bite-2.mp4": {
+      "anime": "Diabolik Lovers",
+      "url": "https://nekos.best/api/v2/bite/4240dcc5-3ce3-46f8-9a8a-74b9b479706b.gif",
+      "category": "bite"
+    },
+    "kickgif-1.mp4": {
+      "anime": "Toradora",
+      "url": "https://nekos.best/api/v2/kick/1145b7cd-2657-4460-a6c0-0a675495bd51.gif",
+      "category": "kick"
+    },
+    "slap-1.mp4": {
+      "anime": "Blend S",
+      "url": "https://nekos.best/api/v2/slap/f4c3e0d0-6aa1-40dc-99e4-d8089a870dc6.gif",
+      "category": "slap"
+    },
+    "bonk-1.mp4": {
+      "anime": "Non Non Biyori",
+      "url": "https://nekos.best/api/v2/bonk/8983797b-e576-4c83-a8d6-267f65a1d884.gif",
+      "category": "bonk"
+    },
+    "punch-1.mp4": {
+      "anime": "Kumamiko: Girl Meets Bear",
+      "url": "https://nekos.best/api/v2/punch/19751952-eda8-486b-84ec-2ab1d1603d50.gif",
+      "category": "punch"
+    },
+    "kickgif-2.mp4": {
+      "anime": "Pandora Hearts",
+      "url": "https://nekos.best/api/v2/kick/3529fd59-63e9-4f48-aa29-7f4a5f9d6ef4.gif",
+      "category": "kick"
+    },
+    "bonk-2.mp4": {
+      "anime": "Gakkougurashi",
+      "url": "https://nekos.best/api/v2/bonk/3a227438-c7ce-4ea4-989c-d916aad92fae.gif",
+      "category": "bonk"
+    },
+    "slap-2.mp4": {
+      "anime": "Akiba Maid Sensou",
+      "url": "https://nekos.best/api/v2/slap/c33eb960-d7b2-4ad3-acc3-366c5d1d2d9b.gif",
+      "category": "slap"
+    },
+    "punch-2.mp4": {
+      "anime": "Mashle",
+      "url": "https://nekos.best/api/v2/punch/af6c4bd1-312d-4061-91a6-2ea77a35ae58.gif",
+      "category": "punch"
+    },
+    "wave-1.mp4": {
+      "anime": "Persona 4",
+      "url": "https://nekos.best/api/v2/wave/e6f276a8-11f1-4ad0-b1e0-3fa91678e2f4.gif",
+      "category": "wave"
+    },
+    "feed-1.mp4": {
+      "anime": "New Game",
+      "url": "https://nekos.best/api/v2/feed/ec289626-f33e-4915-9a9b-fedd21c7df2a.gif",
+      "category": "feed"
+    },
+    "tickle-1.mp4": {
+      "anime": "Hitoribocchi no Marumaru Seikatsu",
+      "url": "https://nekos.best/api/v2/tickle/0ad197d2-b5df-4670-9fb9-e84a2cb9010d.gif",
+      "category": "tickle"
+    },
+    "wave-2.mp4": {
+      "anime": "Sukitte Ii na yo",
+      "url": "https://nekos.best/api/v2/wave/bdb35534-0065-4032-ab98-40bd49ff0694.gif",
+      "category": "wave"
+    },
+    "feed-2.mp4": {
+      "anime": "Fuufu Ijou, Koibito Miman",
+      "url": "https://nekos.best/api/v2/feed/e0e8fff1-2a81-48d9-99e0-c91160a61986.gif",
+      "category": "feed"
+    },
+    "tickle-2.mp4": {
+      "anime": "Okusama ga Seitokaichou!",
+      "url": "https://nekos.best/api/v2/tickle/1381df6d-0140-4409-a828-727e3fb89def.gif",
+      "category": "tickle"
+    },
+    "wink-1.mp4": {
+      "anime": "Boku dake ga Inai Machi",
+      "url": "https://nekos.best/api/v2/wink/b09c3c84-aebe-4a39-9a93-4c72e044c178.gif",
+      "category": "wink"
+    },
+    "wink-2.mp4": {
+      "anime": "Hanasaku Iroha",
+      "url": "https://nekos.best/api/v2/wink/ee7684f0-8399-442f-a3ca-ebfefe13fe47.gif",
+      "category": "wink"
+    },
+    "dance-1.mp4": {
+      "anime": "Hanayamata",
+      "url": "https://nekos.best/api/v2/dance/c0f12626-0b67-4c73-a79e-12c069dc16bd.gif",
+      "category": "dance"
+    },
+    "laugh-1.mp4": {
+      "anime": "Sekaiichi Hatsukoi",
+      "url": "https://nekos.best/api/v2/laugh/0057f563-05ab-421e-81dc-228d871265c5.gif",
+      "category": "laugh"
+    },
+    "dance-2.mp4": {
+      "anime": "Suzumiya Haruhi no Yuuutsu",
+      "url": "https://nekos.best/api/v2/dance/4b43019f-b9e4-4478-97d9-5db62dd05578.gif",
+      "category": "dance"
+    },
+    "cry-1.mp4": {
+      "anime": "Akatsuki no Yona",
+      "url": "https://nekos.best/api/v2/cry/53ca5f09-0481-4600-a329-1d30d099dc17.gif",
+      "category": "cry"
+    },
+    "smile-1.mp4": {
+      "anime": "Free",
+      "url": "https://nekos.best/api/v2/smile/316aaf76-aa0d-467f-9c15-2f0cdc2a9f33.gif",
+      "category": "smile"
+    },
+    "cry-2.mp4": {
+      "anime": "Charlotte",
+      "url": "https://nekos.best/api/v2/cry/cfc9060b-55ce-4920-b881-5f689ec94709.gif",
+      "category": "cry"
+    },
+    "blush-1.mp4": {
+      "anime": "Sakurasou no Pet na Kanojo",
+      "url": "https://nekos.best/api/v2/blush/39022708-f198-48c3-95c6-fbb64fd3bdb2.gif",
+      "category": "blush"
+    },
+    "blush-2.mp4": {
+      "anime": "Kenja no Mago",
+      "url": "https://nekos.best/api/v2/blush/997742bc-5635-4759-9b1b-6a7a23dbba38.gif",
+      "category": "blush"
+    },
+    "laugh-2.mp4": {
+      "anime": "Madou Soshi",
+      "url": "https://nekos.best/api/v2/laugh/40a6cd73-2d22-4bd8-8be6-5d226daf4e0d.gif",
+      "category": "laugh"
+    },
+    "smile-2.mp4": {
+      "anime": "Sewayaki Kitsune no Senko-san",
+      "url": "https://nekos.best/api/v2/smile/b7cab542-7d55-4975-9754-563ab420a4ab.gif",
+      "category": "smile"
+    },
+    "facepalm-1.mp4": {
+      "anime": "Gekijouban Naruto: Dai Gekitotsu! Maboroshi no Chitei Iseki Datte ba yo",
+      "url": "https://nekos.best/api/v2/facepalm/290b3f79-1f38-4be5-a5b7-25753e6f492b.gif",
+      "category": "facepalm"
+    },
+    "facepalm-2.mp4": {
+      "anime": "Toradora",
+      "url": "https://nekos.best/api/v2/facepalm/4297d75c-2f0b-4c0f-ae1a-670e7b23e9d1.gif",
+      "category": "facepalm"
+    },
+    "handshake-1.mp4": {
+      "anime": "Hagane no Renkinjutsushi",
+      "url": "https://nekos.best/api/v2/handshake/fd59247b-fbe3-4bfa-adfb-745dc48140f2.gif",
+      "category": "handshake"
+    },
+    "happy-1.mp4": {
+      "anime": "Boku no Hero Academia",
+      "url": "https://nekos.best/api/v2/happy/52ca4ec8-a95f-4cd3-8900-0737e1b5cdc1.gif",
+      "category": "happy"
+    },
+    "carry-1.mp4": {
+      "anime": "Loop 7-kaime no Akuyaku Reijou wa, Moto Tekikoku de Jiyuukimama",
+      "url": "https://nekos.best/api/v2/carry/4d77de7c-1d59-47bd-9d02-97f3570ed08d.gif",
+      "category": "carry"
+    },
+    "happy-2.mp4": {
+      "anime": "Hyouka",
+      "url": "https://nekos.best/api/v2/happy/084743a2-4c76-4d3c-9f32-83900742e188.gif",
+      "category": "happy"
+    },
+    "handshake-2.mp4": {
+      "anime": "Persona Q: Shadow of the Labyrinth",
+      "url": "https://nekos.best/api/v2/handshake/a66a2f58-f141-49c2-a0d7-d879125ad65e.gif",
+      "category": "handshake"
+    },
+    "carry-2.mp4": {
+      "anime": "Rikei ga Koi ni Ochita no de Shoumei Shite Mita",
+      "url": "https://nekos.best/api/v2/carry/a88edc98-5109-4df9-b692-b78106faa830.gif",
+      "category": "carry"
+    }
+  }
+}

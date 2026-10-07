@@ -1,0 +1,44 @@
+# Validation — 2026-10-06
+
+Environment: Linux, Node.js 24.19.0. The deliverable targets Windows with Node.js 24 or newer.
+
+- Dependency installation completed using the pinned Baileys 7.0.0-rc14 release and package-lock.json.
+- All 19 automated tests passed.
+- Syntax checks passed for source, panel scripts, helper JavaScript and tests.
+- Real FFmpeg/FFprobe image → WebP sticker → PNG conversion passed.
+- SQLite transactional persistence, reopen, rollback, isolated state/auth and three-day expiry passed.
+- Economy cooldowns, item effects, shield protection, balance conservation and cross-account 5% host fees passed.
+- Owner/group/sudo/host permission checks passed; owner messages from the same linked phone work.
+- Temporary admin refund, uncertain-promotion reconciliation and expiry retry passed with mocked WhatsApp responses.
+- AI budget admission, retained reservations, provider limits, one-time notices and human-reply routing passed with mocked API responses. No paid API request was sent.
+- Local panel authentication, safe API-key omission, origin checks and HTTP state passed.
+- Full offline runtime started; authenticated panel state returned HTTP 200; graceful shutdown returned exit code 0.
+- Packaging excludes dependencies, live data, credentials, sessions, API keys and panel tokens.
+
+Not verified live: WhatsApp pairing/operations, native-flow bank button rendering on the user's phone, public-platform downloads, paid OpenAI text/voice responses, Windows registry startup and PowerShell/VBScript execution.
+Browser rendering screenshot was attempted; Chromium was unavailable and the download endpoint returned an invalid archive, so no visual browser claim is made.
+
+Run `npm test` and `npm run check` after setup. Pair and exercise the account on the user's PC to verify external integrations.
+
+
+Node 22 host update (v1.1.3): all 28 tests passed on actual Node.js v22.23.3, including SQLite transactions, permissions, Gemini adapter mocks, panel authentication and real FFmpeg conversion. Direct node index.js --offline startup on v22.23.3 served panel HTTP 200, read existing SQLite data and exited cleanly with code 0 after SIGTERM. WhatsApp live pairing and the user's hosting environment were not exercised. npm 12's allowScripts entries follow its documented pinned package policy; fresh installation on the user's host is still required.
+
+Remote host panel update (v1.1.4): all 30 tests passed on Node.js v22.23.3 and all JavaScript syntax checks passed. Tests cover remote 0.0.0.0 binding, configured public Host/Origin, token authentication, rejection of unknown hosts/origins, secret redaction, authorized settings changes, local defaults and environment precedence. External reachability and HTTPS on the user's hosting allocation were not verified.
+
+Host downloader update (v1.1.5): all 33 tests passed on Node.js v22.23.3; JavaScript syntax checks passed. Installer tests cover libc/architecture selection, existing-tool reuse, checksum rejection without overwriting existing tools, successful replacement and temporary-file cleanup. Actual official Linux binary installation, SHA256 verification and version execution succeeded (2026.08.19). Live platform downloads and reachability from the user's host were not verified. Official binary is downloaded on demand and excluded from the portable ZIP.
+
+YouTube cookies update (v1.1.6): 37 tests passed on Node.js v22.23.3 and syntax checks passed. Cookie tests cover Netscape formatting, YouTube-only domains, rejection of unrelated browser credentials, private temporary copies, original-file preservation, public-content restrictions and authentication diagnostics. End-to-end fake downloader test confirms both metadata and media commands receive cookies and temporary credentials are removed. No real user cookies were accessed; live YouTube authentication and PO Token providers remain unverified. PO Token plugin not installed in this version.
+
+EJS diagnostics/update (v1.1.7): all 38 tests and JavaScript syntax checks passed on Node.js v22.23.3. New host-owner-only updatemedia command supports official yt-dlp stable/nightly updates through the media queue. Tests verify unauthorized callers cannot update, invalid channels are rejected before spawning, update/version calls and preservation of earlier EJS warnings beyond the old 350-character tail. Live nightly installation, authenticated YouTube challenge solving and host reachability remain unverified. Node/EJS flags already existed; this update improves update access and diagnosis, not a proven fix for the reported challenge.
+
+Anime reactions (v1.2.0): all 41 tests passed on actual Node.js v22.23.3; JavaScript syntax checks passed. Includes 26 reaction commands and 52 bundled animated H264/yuv420p clips, two per command, each verified with FFprobe for multiple frames, duration and size. Command tests cover ordinary-user group reactions, captions, both mentions, reply quotation, required-target errors, private expressions and retaining kick admin permissions. Clips are selected locally without runtime API or yt-dlp use. Nekos.best source URLs/anime names are retained in assets/reactions/credits.json; marry uses romantic kiss-category clips. Live display/autoplay on the user's WhatsApp client was not tested. Deferred queue/status changes were removed from this release; prior shipped downloader behavior is preserved.
+
+Owner writing style (v1.3.0): the 48-test Node.js v22.23.3 suite passed; all seven style tests were rerun successfully after the final prompt refinements; syntax checks passed. Tests cover opt-in human-only outgoing collection, generated-output receipts, account/conversation isolation, bounded weekly examples, SQLite persistence, saved-name vs notify-name handling, style/name prompt injection without extra learning requests, owner-only controls and first-notice delivery retries. Contact fields were checked against the installed Baileys Contact interface. Live contact synchronization, model similarity and WhatsApp behavior require user validation. This is local metrics/reference learning for generated replies, not model fine-tuning, historical inbox import or voice cloning; no exact-person replication is claimed.
+
+Named mentions fix (v1.3.1): all 50 tests and syntax checks passed on Node.js v24.19.0. Tests cover LID/phone alias resolution, device suffix normalization, name lookup, reaction caption mentions, tagall/hidetag and actual Baileys generated-message contextInfo. The visible mention identifier now matches the same native JID included in mentionedJid, avoiding PN text vs LID metadata mismatch. Name labels are plain caption text with separate native mentions; arbitrary clickable custom names and actual tap behavior on the user's WhatsApp client are not claimed. The unavailable scratch Node22 runtime was not used in this validation.
+
+New tools (v1.4.0): the 58-test suite and syntax checks passed on Node.js v24.19.0; an additional malformed-image decoding test and all image/Gemini tests were run after final diagnostics changes. Covers group addition permissions/privacy, single-account messaging/cooldown/ownership, bounded media admission, platform validation, MP4 vs MP3 arguments, generated image bytes and isolated quotas/budget. Uses API/downloader fixtures; live WhatsApp delivery, host downloads and image-model availability are unverified.
+
+Command progress (v1.4.1): all 63 tests and syntax checks passed on Node.js v24.19.0. Tests verify original-message reaction keys, pending delivery before success, error transitions, suppressed AI error notices, ordinary-command exclusion and best-effort status transport. Actual WhatsApp rendering was not tested.
+
+v1.5.0: all 74 tests and JavaScript syntax checks passed on Node.js v24.19.0. Actual local-tool tests cover static/animated WebP metadata preservation, neon/round stickers, five changed photo effects, Unicode QR round-trip, image PDF generation/rendering/compression, ZIP round-trip and traversal/expansion rejection, collection isolation/cleanup, playable audio/video MP3/Opus/trim/speed/GIF/reverse/compress/merge outputs, and bundled eng/fra/ara OCR recognition. Emoji mix 😂 + 🔥 fetched an actual gstatic image and produced a 17,588-byte WebP in a separate manual test. Image effects were visually inspected in a contact sheet. Public package tests prove exclusion of live data/configuration/tokens/tools and presence of Windows files; setup test preserves an existing private marker. Fresh extracted public ZIP rejects missing-owner startup; OWNER_NUMBER enables offline startup, HTTP panel 200, authenticated owner-specific state and graceful SIGTERM exit0. Actual WhatsApp linking/delivery, user-host 256 MB RSS and native Windows launcher execution remain unverified. Source data was not removed, replaced or packaged.

@@ -1,0 +1,1 @@
+export function containsLink(text){return /(?:[a-z][a-z0-9+.-]*:\/\/|www\.|(?:[a-z0-9\u0600-\u06ff](?:[a-z0-9\u0600-\u06ff-]*[a-z0-9\u0600-\u06ff])?\.)+(?:[a-z\u0600-\u06ff]{2,}|xn--[a-z0-9-]+)(?:\b|[\/\u0600-\u06ff]))/iu.test(String(text||''));}
